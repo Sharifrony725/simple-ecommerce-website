@@ -1,0 +1,26 @@
+@media screen and (max-width: 400px){ 
+    .nav-container{
+        flex-direction: column;
+    }
+    .nav-item-container{
+       flex-direction: column;
+       gap: 15px;
+       width: 100%;
+    }
+    .nav-item-container .login-btn{
+        margin-bottom: 10px;
+    }
+
+    .logo-container img{
+        margin-right: 0px;
+    }
+    .logo-container h3{
+    font-size: 1rem;
+    }
+  
+
+
+
+
+
+}
