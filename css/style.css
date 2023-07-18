@@ -128,13 +128,6 @@ color: #9376e0;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
 }
-.product-container{
-    max-width: 1400px;
-    margin: 50px  auto 0;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-}
 .card{
     padding: 10px;
     background-color: rgba(112, 128, 144, 0.253);
@@ -181,4 +174,64 @@ color: #9376e0;
 }
 .card-title-icon-container h3{
    color: black;
+}
+
+/* Discount sections styles */
+.discount-section{
+    background-color: #9376E0;
+    margin-top: 50px;
+    padding: 50px 0;
+    min-height: 500px;
+}
+.discount-container{
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.discount-container .discount-img{
+    width: 50%;
+    position: relative;
+}
+
+.discount-number{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%; 
+    background-color: #F6FFA6;
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    top: 5%;
+    right: 20%;
+}
+.discount-container .discount-img img{
+    width: 70%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.discount-container .discount-text{
+    width: 50%;
+}
+.discount-text h3{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: black;
+}
+.discount-text p{
+    font-size: 1.25rem;
+    font-weight: 500;
+    text-align: justify;
+    color: black;
+}
+.discout-buy-button {
+    padding: 10px 20px;
+    border: 2px solid white;
+    font-size: 20px;
+    background-color: transparent;
+    font-weight: 600;
 }

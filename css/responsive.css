@@ -50,4 +50,24 @@
 
 }
 
+/* discount section styles */
+.discount-container{
+    flex-direction: column;
+}
+.discount-container .discount-img{
+    width: 100%;
+}
+.discount-container .discount-text{
+    width: 100%;
+    padding: 10px;
+}
+.discount-text h3{
+    font-size: 1.0rem;
+    text-align: center;   
+}
+.discount-text p{
+    font-size: 0.75rem; 
+    line-height: 18px;  
+}
+
 }
