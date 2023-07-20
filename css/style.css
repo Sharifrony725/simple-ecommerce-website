@@ -45,9 +45,6 @@ color: #9376e0;
 
 .nav-item-container{
     width: 50%;
-   
-}
-.nav-item-container{
     display: flex;
      justify-content: space-between;
 }
@@ -234,4 +231,41 @@ color: #9376e0;
     font-size: 20px;
     background-color: transparent;
     font-weight: 600;
+}
+
+/* customer review section styles */
+.customer-review-section{
+    background-color: #fff;
+}
+
+.customer-review-container{
+    margin: 50px  auto 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-content: center;
+
+}
+.single-review{
+    flex-basis: 300px;
+    min-height: 100px;
+    padding: 5px;
+    border-radius: 10px;
+    color: #000;
+    background-color: #E893CF;
+    
+}
+.customer-info{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+.customer-info img{
+    max-width: 50px;
+    max-height: 50px;
+}
+.customer-info h3{
+    font-size: 20px;
 }
