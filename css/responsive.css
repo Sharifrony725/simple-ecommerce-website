@@ -81,5 +81,26 @@
     height: 50px;
     font-size: 12px;
 }
+/* footer sections  */
+footer{
+    margin-top: 20px;
+}
+.footer-container{
+     padding: 10px;
+}
+.footer-top .urban{
+   font-size: 14px;
+   font-weight: 500;
+}
+.footer-top .hive{
+   font-size: 14px;
+   font-weight: 500;
+}
+.footer-top img{
+    max-width: 30px;
+}
+.footer-container p{
+   font-size: 12px;
+}
 
 }
